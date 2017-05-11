@@ -1,0 +1,107 @@
+body {
+  background: url(big.jpg) no-repeat center top;
+  font-family: 'Architects Daughter', cursive;
+}
+
+h1 {
+  padding-top: 50px;
+  text-align: center;
+  text-shadow: 3px 3px black;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+}
+
+p, .imageText {
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  text-shadow: 2px 2px black;
+  margin-bottom: 30px;
+}
+
+img {
+  width: 24%;
+  border-radius: 6px;
+  box-shadow: 0 0 15px black;
+}
+
+.imageText {
+  position: absolute;
+  width: 24%;
+}
+
+.imageBelow{
+  margin-top: 28%;
+}
+
+
+#small, .imgLeftMargin {
+  margin-left: 1.3%;
+}
+
+img:active {
+  box-shadow: 0 0 2px black;
+}
+
+li {
+  text-align: center;
+  /*border: 1px solid black;*/
+  /*border-bottom: none;*/
+}
+
+#start {
+  display: block;
+  margin: 30px auto;
+}
+
+/*Mobile CSS*/
+@media screen and (max-width: 767px) {
+  img {
+    width: 48%;
+    /*margin-left: 1%;*/
+    margin-bottom: 3%;
+  }
+
+  .imageText {
+  position: absolute;
+  width: 48%;
+  }
+  .imageBelow{
+  margin-top: 56%;
+  }
+  .secondRowMargin {
+  margin-left: 1.3%;
+}
+
+  #large {
+    margin-left: 1%;
+  }
+
+  h1 {
+    padding-top: 0;
+  }
+}
+
+/*Tablet CSS*/
+@media screen and (max-width: 991px) {
+  img {
+    width: 48%;
+    /*margin-left: 1%;*/
+    margin-bottom: 2%;
+  }
+
+  #large {
+    margin-left: 1%;
+  }
+
+  h1 {
+    padding-top: 0;
+  }
+
+  p {
+    margin-bottom: 10px;
+  }
+}
